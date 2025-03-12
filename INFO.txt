@@ -1,0 +1,12 @@
+Vape Cloud Measurement App
+---------------------------
+A desktop application that uses the webcam feed to detect vape clouds in real-time,
+highlight them with a bounding box, and measure the (relative) size of the detected cloud.
+The GUI is developed using PyQt5, while OpenCV handles video capture and image processing.
+
+Core functionalities include:
+   - Webcam selection and live feed display.
+   - Real-time vape cloud detection and measurement.
+   - Adjustable detection sensitivity via a settings slider.
+   - Data logging (optional – if recording is enabled, measurements are saved for later export).
+   - A modern, aesthetically pleasing dark-style GUI.

@@ -1,0 +1,15 @@
+Create a `.gitignore` file to prevent committing temporary files and caches. For example:
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
